@@ -1,82 +1,51 @@
-13
-AS ACE
-2S TWO
-3S THREE
-4C FOUR
-5C FIVE
-6C SIX
-7D SEVEN
-8D EIGHT
-9D NINE
-TH TEN
-JH JACK
-QH QUEEN
-KH KING
-13
-AS ACE
-2S TWO
-3S THREE
-4C FOUR
-5C FIVE
-6C SIX
-7D SEVEN
-8D EIGHT
-9D NINE
-TH TEN
-JH JACK
-QH QUEEN
-KH KING
-52
-AS ACE
-2S TWO
-3S THREE
-4S FOUR
-5S FIVE
-6S SIX
-7S SEVEN
-8S EIGHT
-9S NINE
-TS TEN
-JS JACK
-QS QUEEN
-KS KING
-AC ACE
-2C TWO
-3C THREE
-4C FOUR
-5C FIVE
-6C SIX
-7C SEVEN
-8C EIGHT
-9C NINE
-TC TEN
-JC JACK
-QC QUEEN
-KC KING
-AH ACE
-2H TWO
-3H THREE
-4H FOUR
-5H FIVE
-6H SIX
-7H SEVEN
-8H EIGHT
-9H NINE
-TH TEN
-JH JACK
-QH QUEEN
-KH KING
-AD ACE
-2D TWO
-3D THREE
-4D FOUR
-5D FIVE
-6D SIX
-7D SEVEN
-8D EIGHT
-9D NINE
-TD TEN
-JD JACK
-QD QUEEN
-KD KING
-0
+50
+---B-------D-----D--------------B--
+---------DB---D---
+-----D-----------DD---
+------BB-----D---D-------
+-------D--------------BD---------DB
+-D------------D-----------
+--------------DD-
+----B--B-------------
+-----------------BB------D--------
+---------
+-D--D----B------B---BD-------
+-D-D----------B-------
+--------B------------------BBB-------
+-------
+----D
+B----BD----D----B-----B---D-----DD---
+----D-B-BB---------------BB---B-----
+---D------
+D--B--------------------------D--D-B----
+----B----------D--------D----B-D------------D
+--B-------------D-----
+-----D----------BDD-BD--D--BBD-
+---B------BDD---B--B----D--D--------------B---B
+--------------B-B---BD--------
+----
+-----------
+---D-------D--BB------D--B-----B
+D---BD----------B---D-DD--------
+------B
+---D--------B-B--DD---------
+-------
+B-------D--------B-----D-----DD---------DD-B----
+-----------------D-
+-D------D-----B----BB----D---BBD--B-D---------D
+------BD---DB----------B-B---B--D---D-------
+-DDBB----------
+-------D------D-B
+-B--
+-D----------DD--B------------D-D-----------
+B------DD-B---------D----------B-D-B--D---
+---B---B----DBB-B--B-----------DB-DD-BD---BB--
+--B-----
+DDBDD
+--B-----BD-----B--B-----D-------D-------D---
+------D-------DB--D-D-----D-------
+--------D--D----B--B--D----------------------B
+----D---B-------B---B-DD-D-BB--------D----D-
+-----B--D----------B------DB--------
+---
+---------B---B-D-------
