@@ -1,24 +1,24 @@
 //--------------------------------------------------------------------
 // File information.
 
-// Name    :   Balanced Parathesis - Modified
-// Purpose :   CP Lab
+// Name    :   12709 - Falling Ants
+// Purpose :   UHunt - Practice
 // License :   MIT
-// Revision:   210327
+// Revision:   210403
 // Author  :   smk
 
 //--------------------------------------------------------------------
 // Standard Libraries
 
-#include <bits/stdc++.h>
+#include <cstdio>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
+
 
 //--------------------------------------------------------------------
 // Main functions
-
-void solve(){
-
-}
 
 int main(){
 
@@ -29,14 +29,16 @@ int main(){
     freopen("output.txt", "w", stdout);
     #endif
 
-    int t; cin >> t;
-    char c;
-    stack<char> s;
-    int sum = 0;
-    int lvl = 0;
-    while(t--){
-
+    int t;
+    while(cin >> t && t){
+        int L,W,H,V,maxV,maxH = 0;
+        while(t--){
+            cin >> L >> W >> H;
+            V = L*W*H;
+            if( H > maxH || (H == maxH && V > maxV))
+                maxH = H, maxV = V;
+        }
+        cout << maxV << endl;
     }
-
     return 0;
 }
