@@ -1,12 +1,8 @@
 //--------------------------------------------------------------------
 // Standard Libraries
 
-#include <iostream>
-#include <cstdio>
-#include <vector>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
-
 
 //--------------------------------------------------------------------
 // Main functions
@@ -19,10 +15,14 @@ int main(){
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
-    int x;
-    basic_istream<int> ss(stdin);
-    while(getline(ss,x))
-        cout << x << " ";
-    return 0;
 
+    int n; cin >> n;
+    int arr[n];
+    for(int i = 0; i < n; i++)
+        cin >> arr[i];
+    for(int i = 0; i < n; i++)
+        cout << ar[ri] << " ";
+    cout << endl;
 }
+
+

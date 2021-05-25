@@ -1,5 +1,18 @@
-#include <bits/stdc++.h>
+//--------------------------------------------------------------------
+// File information.
+
+// Name    :   11340 - Newspaper
+// Purpose :   UHunt - Practice
+// License :   MIT
+// Revision:   210518
+// Author  :   smk
+
+//--------------------------------------------------------------------
+// Libraries
+#include <iostream>
+#include <iomanip>
 using namespace std;
+typedef long long int ll;
 
 int main(){
 
@@ -14,7 +27,7 @@ int main(){
 	int n; cin >>n;
 	while(n--){
 		int k; cin>>k;
-		int freq[256] = {0};
+		ll freq[256] = {0};
 		double cost[256] = {0};
 		while(k--){
 			char c; cin>> c;
@@ -33,8 +46,8 @@ int main(){
 		// for(int i = 0; i<256; i++)
 		// 	if(cost[i]) cout<<char(i)<<" " << cost[i]<<" " << freq[i] <<endl;
 		for(int i = 0; i < 256; i++)
-			ans+= (cost[i]*freq[i]);	
-		
+			ans+= (cost[i]*freq[i]);
+
 		cout <<fixed<<setprecision(2)<< ans<<'$'<<endl;
 
 	}
